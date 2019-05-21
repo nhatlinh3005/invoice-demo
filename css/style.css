@@ -1,0 +1,69 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+.container {
+  width: 900px;
+  margin: 8px auto;
+  padding: 1px 1px;
+  border: 1px solid #dfdfdf;
+}
+
+h2 { 
+  margin: 0 0;
+  padding: 0 0;
+  font-size: 20px; 
+}
+
+h3 { 
+  margin: 0 0;
+  padding: 0 0;
+  font-size: 17px; 
+}
+
+h4 { 
+  margin: 0 0;
+  padding: 0 0;
+  font-size: 14px; 
+}
+
+p {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+li { list-style: none; }
+
+.header-left, .header-center, .header-right { float: left; }
+
+.header-left, .header-right {
+  width: 30%
+}
+
+.header-center { 
+  width: 40%;
+  text-align: center;
+}
+
+.header-right {text-align: right;}
+ 
+.header-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} 
+
+.clear { clear: both; }
+
+.header-right-item, .info-company-item, .info-customer-item { display: flex;}
+
+.info-customer-item p {
+  min-width: 80%;
+  border-bottom: 1px #000 dotted;
+}
+
+table, th, td {
+  border: 1px solid black;
+}

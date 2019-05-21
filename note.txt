@@ -1,0 +1,14 @@
+Căn giữa dùng flex
+#flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+icon với li
+
+li:before {
+  content: url("../images/icon.png");
+  margin-right: 5px;
+}
+
